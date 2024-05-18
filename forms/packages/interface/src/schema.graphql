@@ -1,0 +1,9 @@
+type Form @key(fields: "id") {
+  id: Int!
+  name: String!
+}
+
+type Query {
+  form(id: Int!): Form!
+  forms: [Form]!
+}

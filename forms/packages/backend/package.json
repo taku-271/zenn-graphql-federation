@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.38.1",
+    "@prisma/client": "^5.14.0",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "prisma": {
+    "seed": "ts-node ./prisma/seeds/start.ts"
+  }
+}

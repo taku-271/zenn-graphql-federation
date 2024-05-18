@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "codegen": "graphql-codegen --watch"
+  },
+  "dependencies": {
+    "@eddeee888/gcg-typescript-resolver-files": "^0.8.0",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@parcel/watcher": "^2.4.1"
+  }
+}
