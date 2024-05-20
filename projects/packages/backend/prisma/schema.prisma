@@ -16,11 +16,4 @@ datasource db {
 model project {
   id Int @default(autoincrement()) @id
   name String
-  forms form[]
-}
-
-model form {
-  id Int @id
-  project project @relation(fields: [projectId], references: [id])
-  projectId Int
 }

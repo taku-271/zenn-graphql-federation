@@ -3,6 +3,11 @@ type Form @key(fields: "id") {
   name: String!
 }
 
+extend type Project @key(fields: "id") {
+  id: Int! @external
+  forms: [Form]!
+}
+
 type Query {
   form(id: Int!): Form!
   forms: [Form]!

@@ -1,6 +1,6 @@
 import { form as formType } from "@prisma/client";
 import type { QueryResolvers } from "./../../generated/types.generated";
-export const form: NonNullable<QueryResolvers["form"]> = async (
+export const form: NonNullable<QueryResolvers['form']> = async (
   _parent,
   _arg,
   _ctx

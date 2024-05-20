@@ -1,6 +1,6 @@
 import { project as projectType } from "@prisma/client";
 import type { QueryResolvers } from "./../../generated/types.generated";
-export const project: NonNullable<QueryResolvers["project"]> = async (
+export const project: NonNullable<QueryResolvers['project']> = async (
   _parent,
   _arg,
   _ctx

@@ -1,12 +1,6 @@
 type Project {
   id: Int!
   name: String!
-  # 必須にしたいが、resolverの段階で必須になってしまうため保留
-  forms: [Form]
-}
-
-extend type Form @key(fields: "id") {
-  id: Int! @external
 }
 
 type Query {

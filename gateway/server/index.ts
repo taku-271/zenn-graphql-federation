@@ -17,6 +17,6 @@ const server = new ApolloServer({
   gateway,
 });
 
-server.listen({ port: 4000 }).then(({ url }) => {
+server.listen({ port: 4010 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });

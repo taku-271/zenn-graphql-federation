@@ -9,9 +9,11 @@ const main = async () => {
     },
     create: {
       name: "form 1",
+      projectId: 1,
     },
     update: {
       name: "form 1",
+      projectId: 1,
     },
   });
   await prisma.form.upsert({
@@ -20,9 +22,11 @@ const main = async () => {
     },
     create: {
       name: "form 2",
+      projectId: 1,
     },
     update: {
       name: "form 2",
+      projectId: 1,
     },
   });
   await prisma.form.upsert({
@@ -31,9 +35,11 @@ const main = async () => {
     },
     create: {
       name: "form 3",
+      projectId: 2,
     },
     update: {
       name: "form 3",
+      projectId: 2,
     },
   });
 };

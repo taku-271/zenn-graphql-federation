@@ -25,48 +25,6 @@ const main = async () => {
       name: "project 2",
     },
   });
-
-  await prisma.form.upsert({
-    where: {
-      id: 1,
-    },
-    create: {
-      id: 1,
-      projectId: 1,
-    },
-    update: {
-      id: 1,
-      projectId: 1,
-    },
-  });
-
-  await prisma.form.upsert({
-    where: {
-      id: 2,
-    },
-    create: {
-      id: 2,
-      projectId: 1,
-    },
-    update: {
-      id: 2,
-      projectId: 1,
-    },
-  });
-
-  await prisma.form.upsert({
-    where: {
-      id: 3,
-    },
-    create: {
-      id: 3,
-      projectId: 2,
-    },
-    update: {
-      id: 3,
-      projectId: 2,
-    },
-  });
 };
 
 main()
